@@ -3,6 +3,7 @@
 namespace Transfer;
 
 class API 
+extends StrangePacket 
 implements ABI
 
 {
@@ -11,7 +12,7 @@ implements ABI
     public function API(){
         $this->mode = 1;
         if(!$this instanceof StrangePacket){
-           // $this = new StrangePacket("",0);
+            //$this = new StrangePacket(0,"");
         }
     }
 
