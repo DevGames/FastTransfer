@@ -1,0 +1,8 @@
+name: Transfer
+main: Transfer\Nawaf1b
+version: 1.0.0
+api: 2.0.0
+authors: [Nawaf_Craft1b, iBa4x]
+commands:
+ transfer:
+  description: To Teleport another server
