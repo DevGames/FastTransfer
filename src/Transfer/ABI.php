@@ -2,7 +2,7 @@
 
 namespace Transfer;
 
-interface ABI extends StrangePacket
+interface ABI
 {
     
 public function Transfer($ip,$port,$p);
